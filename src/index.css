@@ -1,0 +1,10 @@
+* {
+  font-family: 'Segoe UI', 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(to top, rgb(14, 13, 13), rgb(20, 20, 20));
+  -webkit-tap-highlight-color: transparent;
+}

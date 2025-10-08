@@ -1,0 +1,40 @@
+@media (max-width: 850px) {
+  .app-container {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .chat-message-profile {
+    width: 30px;
+  }
+  .chat-message-time {
+    font-size: 0.6rem;
+  }
+  .chat-input {
+    width: 10px;
+  }
+  .chat-messages-container {
+    flex-grow: 1;
+  }
+  .title a::before {
+    opacity: 1;
+    top: -15px;
+  }
+  .title a {
+    text-shadow: 1px 10px 90px rgba(241, 241, 241, 0.95);
+    user-select: none;
+  }
+  .title {
+    margin-top: 120px;
+  }
+  body.keyboard-active {
+    position: fixed
+  }
+  .chat-input-container {
+    flex-wrap: wrap;
+  }
+  .send-button, .clear-button {
+    padding: 0px 8px;
+    border-radius: 1000px;
+    font-size: 0.8rem;
+  }
+}

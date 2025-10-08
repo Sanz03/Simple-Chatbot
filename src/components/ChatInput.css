@@ -1,0 +1,64 @@
+/* .send-button, .clear-button {
+  user-select: none;
+  border-radius: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 12px 20px;
+  border: none;
+  background-color: rgb(18, 19, 18);
+  color: white;
+  border: 1px solid rgb(124, 124, 124);
+  transition: 0.15s;
+} */
+ 
+/* .send-button:hover, .clear-button:hover {
+  border: 1px solid rgb(214, 214, 214);
+} */
+ .svg-button-send, .svg-button-clear {
+  cursor: pointer;
+  fill: rgb(163, 163, 163);
+  margin: 0px 2px  ;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  transition: all 0.25s ease-in-out;
+ }
+.chat-input {
+  outline: none;
+  border: none;
+  background-color: rgb(18, 19, 18);
+  color: white;
+  flex-grow: 1;
+  font-size: 1rem;
+  border-radius: 10px;
+  padding: 12px 15px;
+  border: 1px solid rgb(124, 124, 124);
+  transition: 0.15s;
+}
+.chat-input:focus {
+  background-color: rgb(245, 245, 245);
+  color: rgb(18, 19, 18);
+}
+.chat-input:focus ~ .svg-button-send {
+  fill: rgb(18, 19, 18);
+}
+.chat-input-container {
+  position: relative;
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+ .svg-button-send {
+  right: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  z-index: 999;
+ }
+ .svg-button-clear:hover {
+  fill: rgb(243, 243, 243);
+ }
+
