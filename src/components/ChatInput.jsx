@@ -47,9 +47,11 @@ export function ChatInput({chatMessages, setChatMessages}) {
     ]);
   }
   function clearMessage() {
-      setTimeout(() => {
+      if (chatMessages.length !== 0) {
+        setTimeout(() => {
         setChatMessages([]);
-      }, 1000)
+        }, 1000)
+      }
     }
   function onKeyDownEventHandler(event) {
     if (event.key === 'Enter') {

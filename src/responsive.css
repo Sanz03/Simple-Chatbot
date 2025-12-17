@@ -37,4 +37,14 @@
     border-radius: 1000px;
     font-size: 0.8rem;
   }
+  .svg-button-clear:hover {
+    transform: translateY(0px);
+    fill: rgb(163, 163, 163);
+  }
+  .svg-button-clear:active {
+    fill: rgb(243, 243, 243);
+  }
+  .svg-button-send:active {
+    fill: rgb(243, 243, 243);
+  }
 }

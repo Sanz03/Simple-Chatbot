@@ -15,7 +15,8 @@ function App() {
     }, []);
   },[])
   return (
-    <div className="app-container">
+    <>
+      <div className="app-container">
       {chatMessages.length === 0 && (
         <>
           <p className="title"><a href={Documentation} draggable="false" target='_blank' rel='noopener noreferrer'>ChatBot</a></p>
@@ -38,6 +39,7 @@ function App() {
         setChatMessages={setChatMessages}
       />
     </div>
+    </>
   );
 }
 

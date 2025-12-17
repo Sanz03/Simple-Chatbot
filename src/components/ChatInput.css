@@ -59,6 +59,7 @@
   z-index: 999;
  }
  .svg-button-clear:hover {
+  transform: translateY(-5px);
   fill: rgb(243, 243, 243);
  }
 
